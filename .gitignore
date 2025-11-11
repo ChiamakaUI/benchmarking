@@ -1,0 +1,54 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo
+Cargo.lock
+# Note: Keep Cargo.lock if this is a binary project, remove for library
+
+# Criterion benchmark outputs
+/target/criterion/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Rust Analyzer
+rust-project.json
+
+# Debug files
+*.dSYM/
+
+# Profiling
+perf.data
+perf.data.old
+flamegraph.svg
+*.profdata
+
+# OS files
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Environment
+.env
+.env.local
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Documentation
+/target/doc/
+
+# Backup files
+*.bak
+*.backup
